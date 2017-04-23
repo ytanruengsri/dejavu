@@ -212,4 +212,6 @@ typings/
 
 nightwatch/reports
 
+webdriverio/screenshots
+
 

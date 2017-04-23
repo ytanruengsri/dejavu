@@ -12,15 +12,21 @@
     "testcafe:chrome": "testcafe chrome testcafe/tests",
     "testcafe:firefox": "testcafe firefox testcafe/tests",
     "nightwatch:chrome": "nightwatch --env default",
-    "nightwatch:firefox": "nightwatch --env firefox"
+    "nightwatch:firefox": "nightwatch --env firefox",
+    "wdio:chrome": "wdio",
+    "wdio:firefox": "wdio"
   },
   "devDependencies": {
     "babel-eslint": "7.2.2",
     "eslint": "3.19.0",
     "eslint-config-airbnb-base": "11.1.3",
     "eslint-plugin-import": "2.2.0",
+    "mocha": "3.2.0",
     "nightwatch": "0.9.14",
-    "testcafe": "0.14.0"
+    "testcafe": "0.14.0",
+    "wdio-dot-reporter": "0.0.8",
+    "wdio-mocha-framework": "0.5.10",
+    "webdriverio": "4.7.1"
   },
   "dependencies": {
     "testcafe-react-selectors": "0.0.2"
