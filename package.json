@@ -1,7 +1,7 @@
 {
   "name": "dejavu",
   "version": "0.1.0",
-  "description": "automated pdp testing using testcafe",
+  "description": "automated pdp testing using testcafe/nightwatch",
   "main": "index.js",
   "author": "Yuthasak Tanruengsri",
   "license": "MIT",
@@ -9,14 +9,20 @@
     "node": ">= 7.6.0"
   },
   "scripts": {
-    "test:chrome": "testcafe chrome tests/"
+    "testcafe:chrome": "testcafe chrome testcafe/tests",
+    "testcafe:firefox": "testcafe firefox testcafe/tests",
+    "nightwatch:chrome": "nightwatch --env default",
+    "nightwatch:firefox": "nightwatch --env firefox"
   },
   "devDependencies": {
-    "babel-eslint": "^7.2.2",
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb-base": "^11.1.3",
-    "eslint-plugin-import": "^2.2.0",
+    "babel-eslint": "7.2.2",
+    "eslint": "3.19.0",
+    "eslint-config-airbnb-base": "11.1.3",
+    "eslint-plugin-import": "2.2.0",
+    "nightwatch": "0.9.14",
     "testcafe": "0.14.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "testcafe-react-selectors": "0.0.2"
+  }
 }
