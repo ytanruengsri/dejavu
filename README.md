@@ -2,6 +2,11 @@
 
 automated page testing using testcafe/nightwatch.js
 
+## Installation
+```
+$ yarn
+```
+
 ## How to run testcafe?
 
 with Chrome
