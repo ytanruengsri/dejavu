@@ -9,8 +9,8 @@
     "node": ">= 7.6.0"
   },
   "scripts": {
-    "testcafe:chrome": "testcafe chrome testcafe/tests",
-    "testcafe:firefox": "testcafe firefox testcafe/tests",
+    "testcafe:chrome": "testcafe chrome testcafe/tests -e",
+    "testcafe:firefox": "testcafe firefox testcafe/tests -e",
     "nightwatch:chrome": "nightwatch --env default",
     "nightwatch:firefox": "nightwatch --env firefox",
     "wdio:chrome": "wdio",

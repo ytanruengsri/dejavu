@@ -9,7 +9,6 @@ fixture `Example page`
 
 test('Verify Redirection', async t => {
     await t
-        .debug()
         .click(logoSelector);
 
     const location = await t.eval(() => window.location);
