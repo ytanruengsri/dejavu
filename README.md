@@ -1,6 +1,6 @@
 # DejaVu
 
-automated page testing using testcafe/nightwatch.js
+automated page testing using testcafe/nightwatch/webdriver.io
 
 ## Installation
 ```
@@ -29,4 +29,16 @@ $ npm run nightwatch:chrome
 with Firefox
 ```
 $ npm run nightwatch:firefox
+```
+
+## How to run webdriver.io?
+
+with Chrome
+```
+$ npm run wdio:chrome
+```
+
+with Firefox
+```
+$ npm run wdio:firefox
 ```
